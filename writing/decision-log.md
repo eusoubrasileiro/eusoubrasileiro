@@ -188,8 +188,11 @@ Everything here comes from the published repository, and each figure is one comm
   numbers (`D-00`–`D-64`, with `D-53` reserved and never used), plus `D-48b`, plus three
   numbers that genuinely collide — a cross-machine merge renumbering, left visible and
   disambiguated by `D-50` rather than quietly renumbered, because the file is append-only.
-- **186 commits**, of which **157** carry a `Co-Authored-By` trailer naming the model that
-  wrote them.
+- **186 commits at the point of export**, of which **157** carried a `Co-Authored-By` trailer
+  naming the model that wrote them. Both numbers move with every commit — including the ones
+  that added the README and this note — so re-derive rather than trust the line:
+  `git rev-list --count HEAD` and
+  `git log --format='%H %(trailers:key=Co-Authored-By,valueonly)' | grep -c @`.
 - **1,060 tests**, 1,053 passing, 0 failing, 7 skipped, in 27 seconds on one machine.
 - **53 mission dossiers**, 37 engine scripts, 33 test files, 2 project profiles, 3 agent
   skills, 10 archived plans.

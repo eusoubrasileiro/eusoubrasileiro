@@ -32,11 +32,11 @@ deployments, absent files and open debts, and the READMEs say which.
 
 | Repo | What it is | Look at first |
 |---|---|---|
-| [agent-factory](https://github.com/eusoubrasileiro/agent-factory) | The mission engine: plan → build → validate → ratify, with per-project data instead of per-project code. | `RUNBOOK.md` |
-| [harness-standards](https://github.com/eusoubrasileiro/harness-standards) | The written engineering standard the agents are held to — dual gates, permission tiers, worktree dispatch. | `standards.md` |
+| [agent-factory](https://github.com/eusoubrasileiro/agent-factory) | The mission engine: plan → build → validate → ratify, with per-project data instead of per-project code. | `constitution.md` |
+| [harness-standards](https://github.com/eusoubrasileiro/harness-standards) | The written engineering standard the agents are held to — dual gates, permission tiers, worktree dispatch. | `standards.md` §4 |
 | [eval-viewer](https://github.com/eusoubrasileiro/eval-viewer) | An offline dashboard for reviewing LLM agent eval runs by hand, with a suite pinning every lie it once told. | `test/honesty.test.ts` |
 | [knowledge-engine](https://github.com/eusoubrasileiro/knowledge-engine) | Durable external memory: watchers sift AI research into a knowledge repo; an MCP server serves it back, grounded and dated. | `serve.py` |
-| [whatsapp-mcp](https://github.com/eusoubrasileiro/whatsapp-mcp) | WhatsApp as an MCP server — 23 tools, Bearer auth, long-lived Docker daemon. | `CLAUDE.md` |
+| [whatsapp-mcp](https://github.com/eusoubrasileiro/whatsapp-mcp) | WhatsApp as an MCP server — 23 tools, Bearer auth, long-lived Docker daemon. | `src/stream/follow.ts` |
 
 ### Writing
 
