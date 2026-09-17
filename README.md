@@ -63,4 +63,5 @@ the work starts — is the same discipline, applied to a faster machine.
 ### Contact
 
 eusoubrasileiro@gmail.com · [GitHub](https://github.com/eusoubrasileiro) ·
-[Stack Overflow](https://stackoverflow.com/users/1207193/imbr) · LinkedIn
+[Stack Overflow](https://stackoverflow.com/users/1207193/imbr) ·
+[LinkedIn](https://www.linkedin.com/in/andr%C3%A9-ferreira-lopes/)
