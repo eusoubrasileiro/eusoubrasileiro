@@ -10,7 +10,9 @@ I do not write the code. Agents do; I write the intent, ratify the plan, and own
 says whether the thing may go live. So the only question I am actually qualified to answer about
 this product is the one this essay is about: *how do you know the gate is measuring the bot?*
 
-It took me three tries to get that right, and the first two were green.
+Twice I built something that reported green while measuring the wrong thing — once the gate
+itself, grading a copy of production rather than production, and once the board, counting a
+population that was never live work. Both are below, in that order.
 
 ## The seam
 

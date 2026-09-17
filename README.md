@@ -43,8 +43,8 @@ deployments, absent files and open debts, and the READMEs say which.
 - [**Six months of agent-built software: what 68 decisions say**](writing/decision-log.md) — a
   reading of an append-only decision ledger, concentrating on the entries where the process was
   wrong and said so.
-- [**The eval gate**](writing/eval-gate.md) — why a check that cannot fail is worse than no check,
-  and what that costs to fix.
+- [**An eval gate on real WhatsApp traffic**](writing/eval-gate.md) — why a check that cannot fail
+  is worse than no check, and what that costs to fix.
 
 ### Before this
 
