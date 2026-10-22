@@ -1,4 +1,4 @@
-## André Lopes Ferreira
+## André L. Ferreira
 
 AI / agent engineer. Geophysicist by training, federal public servant by day (ANP, posted
 at ANM), and for about six months the product owner of a fleet of coding agents.
